@@ -12,7 +12,7 @@ basic.forever(function () {
     if (joystickbit.getRockerValue(joystickbit.rockerType.Y) > 700 && brush_y > 0) {
         brush_y += -1
     }
-    if (joystickbit.getRockerValue(joystickbit.rockerType.Y) < 300 && brush_y < 6) {
+    if (joystickbit.getRockerValue(joystickbit.rockerType.Y) < 300 && brush_y < 4) {
         brush_y += 1
     }
     if (joystickbit.getButton(joystickbit.JoystickBitPin.P12)) {
